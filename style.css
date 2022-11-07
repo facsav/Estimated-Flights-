@@ -1,0 +1,72 @@
+:root{
+    --fb: rgb(253, 190, 21);
+}
+
+
+/* FONTS */
+@font-face {
+    font-family:pop;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family:popLight;
+    src: url(./assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family:albert;
+    src: url(./assets/fonts/Alberto-Regular.ttf);
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./assets/img/FlybondiLOGO-6_page-0001\ \(1\).jpg);
+}
+ 
+h1{
+    color: var(--fb);
+    font-family: pop;
+}
+
+h2{
+    color: var(--fb);
+    font-family: albert;  
+}
+
+
+.departures{
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+table{
+    background-color: rgb(82, 82, 82);
+    text-align: left;
+    color: white;
+    font-family:popLight;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-warning{
+    font-family: popLight;
+    background-color: var(--fb);
+    color: white;
+    border-color: var(--fb);
+    margin: 5px;
+
+}
+
